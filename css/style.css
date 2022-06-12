@@ -1,0 +1,244 @@
+*,
+@font-face {
+    font-family: Legothick; /* Гарнитура шрифта */
+    src: url(fonts/11624.ttf); /* Путь к файлу со шрифтом */
+   }
+
+  @font-face {
+    font-family: Marmelad;
+    src: url(fonts/Marmelad.ttf);
+   }
+
+ header{
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  background-color: red;
+  margin-bottom: 0px;
+  background-image: url(images/i8.png)   - в свойстве указывается путь к изображению. Как сохранить картинку, чтоб потом прописать путь для неё читайте в статье Каталога сайта
+}
+	  #navbar ul{
+        display: none;
+        background-color: #8A2BE2;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 40px;
+        background-color: #4B0082;
+        padding-left: 25px;
+        min-width: 470px;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        display: block;
+        padding: 6px;
+        width: 200px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+
+a {
+  text-decoration: none;
+}
+
+.left-side {
+  padding-top: 5%;
+  overflow: auto;
+  position: fixed;
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.right-side {
+  padding-top: 2.5%;
+  background: Ivory;
+  float:right;
+  height: 100%;
+  width: 80%;
+}
+
+.sections {
+  list-style-type: disc;
+  position: relative;
+  padding-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.menu{
+  padding-bottom: 20px;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: red;
+	text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+	margin-left: 50px;
+  font-family: sans-serif;
+}
+
+.mb1{
+  background-color: Crimson;
+  border-color: DarkRed;
+  color: white;
+
+}
+
+.mb1a{
+  font-size: 190%;
+  background-color: Crimson;
+  color: white;
+  border-color: DarkRed;
+}
+
+.mb2{
+  background-color: Coral;
+  border-color: OrangeRed;
+  color: white;
+}
+
+.mb2a{
+  font-size: 190%;
+  background-color: Coral;
+  color: white;
+  border-color: OrangeRed;
+}
+
+.mb3{
+  background-color: Gold;
+  border-color: DarkKhaki;
+  color: white;
+}
+
+.mb3a{
+  font-size: 190%;
+  background-color: Gold;
+  color: white;
+  border-color: DarkKhaki;
+}
+
+.mb4{
+  background-color: LimeGreen;
+  border-color: DarkGreen;
+  color: white;
+}
+
+.mb4a{
+  font-size: 190%;
+  background-color: LimeGreen;
+  color: white;
+  border-color: DarkGreen;
+}
+
+.mb5{
+  background-color: DarkTurquoise;
+  border-color: SteelBlue;
+  color: white;
+}
+
+.mb5a{
+  font-size: 190%;
+  background-color: DarkTurquoise;
+  color: white;
+  border-color: SteelBlue;
+}
+
+.mb6{
+  background-color: MediumBlue;
+  border-color: MidnightBlue;
+  color: white;
+}
+
+.mb6a{
+  font-size: 190%;
+  background-color: MediumBlue;
+  color: white;
+  border-color: MidnightBlue;
+}
+
+.mb7{
+  background-color: DarkViolet;
+  border-color: Indigo;
+  color: white;
+}
+
+.mb7a{
+  font-size: 190%;
+  background-color: DarkViolet;
+  color: white;
+  border-color: Indigo;
+}
+
+.mb8{
+  background-color: SandyBrown;
+  border-color: Maroon;
+  color: white;
+}
+
+.mb8a{
+  font-size: 190%;
+  background-color: SandyBrown;
+  color: white;
+  border-color: Maroon;
+}
+
+.star{
+	width: 50px;
+	height: 50px:;
+}
+
+body {
+	color: black;
+	align-items: left;
+}
+
+button {
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	font-family: Legothick;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 8px;
+	width: 100px;
+	height: 100px;
+  border-radius: 10px;
+}
+
+table {
+	table-layout: fixed;
+  width:100%;
+	margin: 5px;
+}
+
+td {
+	word-wrap:break-word;
+	text-align: center;
+	padding: 5px;
+}
+
+.txt {
+	font-size: 20px;
+	color: black;
+	font-family: sans-serif;
+	font-weight:bold;
+}
