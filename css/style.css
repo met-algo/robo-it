@@ -1,7 +1,7 @@
 *,
 @font-face {
     font-family: Legothick; /* Гарнитура шрифта */
-    src: url(../fonts/11624.ttf); /* Путь к файлу со шрифтом */
+    src: url('../fonts/11624.ttf'); /* Путь к файлу со шрифтом */
    }
 
   @font-face {
